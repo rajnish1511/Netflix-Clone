@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <script src="./data.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">NETFLIX</a>
+        <div class="search-box">
+            <img src="images/search.svg" alt="search">
+            <input type="text" id="searchInput" placeholder="search by movies" >
+        </div>
+    </nav>
+
+    <!-- big banner  -->
+     <header class="hero" id="hero"></header>
+
+     <!-- Movie row -->
+      <main id="row"></main>
+
+      <!-- Search Results (hidden until user type) -->
+
+      <section id="serchResult" class="search-results hidden">
+         <h2 id="resultTitle"></h2>
+         <div class="grid" id="resultGrid"></div>
+      </section>
+</body>
+</html>
