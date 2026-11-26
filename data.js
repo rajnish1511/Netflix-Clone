@@ -1,0 +1,162 @@
+// All movie data lives here.
+// To add a movie: copy one object, change the values, put the images in the images/ folder.
+// poster = small vertical image (cards), banner = wide image (hero + details page)
+
+const movies = [
+  {
+    id: 1,
+    title: "Inception",
+    year: 2010,
+    duration: "2h 28m",
+    rating: 8.8,
+    genre: "Sci-Fi",
+    trending: true,
+    poster: "inception.jpg",
+    banner: "inception-banner.jpg",
+    description: "A thief who steals secrets from people's dreams is given a final job: plant an idea inside a target's mind instead of stealing one.",
+    cast: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"]
+  },
+  {
+    id: 2,
+    title: "The Dark Knight",
+    year: 2008,
+    duration: "2h 32m",
+    rating: 9.0,
+    genre: "Action",
+    trending: true,
+    poster: "dark-knight.jpg",
+    banner: "dark-knight-banner.jpg",
+    description: "Batman faces the Joker, a criminal mastermind who pushes Gotham City into chaos and tests the hero's limits.",
+    cast: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"]
+  },
+  {
+    id: 3,
+    title: "Interstellar",
+    year: 2014,
+    duration: "2h 49m",
+    rating: 8.7,
+    genre: "Sci-Fi",
+    trending: true,
+    poster: "interstellar.jpg",
+    banner: "interstellar-banner.jpg",
+    description: "As Earth becomes unlivable, a team of astronauts travels through a wormhole to find a new home for humanity.",
+    cast: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"]
+  },
+  {
+    id: 4,
+    title: "Avengers: Endgame",
+    year: 2019,
+    duration: "3h 1m",
+    rating: 8.4,
+    genre: "Sci-Fi",
+    trending: true,
+    poster: "endgame.jpg",
+    banner: "endgame-banner.jpg",
+    description: "The remaining Avengers assemble once more to undo the damage caused by Thanos and restore the universe.",
+    cast: ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"]
+  },
+  {
+    id: 5,
+    title: "Joker",
+    year: 2019,
+    duration: "2h 2m",
+    rating: 8.4,
+    genre: "Drama",
+    trending: false,
+    poster: "joker.jpg",
+    banner: "joker-banner.jpg",
+    description: "A struggling comedian in Gotham City slowly turns into the criminal figure known as the Joker.",
+    cast: ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz"]
+  },
+  {
+    id: 6,
+    title: "Parasite",
+    year: 2019,
+    duration: "2h 12m",
+    rating: 8.5,
+    genre: "Drama",
+    trending: true,
+    poster: "parasite.jpg",
+    banner: "parasite-banner.jpg",
+    description: "A poor family slowly worms its way into the lives of a rich household, with unexpected and dark consequences.",
+    cast: ["Song Kang-ho", "Choi Woo-shik", "Park So-dam"]
+  },
+  {
+    id: 7,
+    title: "3 Idiots",
+    year: 2009,
+    duration: "2h 50m",
+    rating: 8.4,
+    genre: "Comedy",
+    trending: true,
+    poster: "3-idiots.jpg",
+    banner: "3-idiots-banner.jpg",
+    description: "Two friends look back on their college days and search for their brilliant, free-thinking friend who disappeared.",
+    cast: ["Aamir Khan", "R. Madhavan", "Sharman Joshi"]
+  },
+  {
+    id: 8,
+    title: "Dangal",
+    year: 2016,
+    duration: "2h 41m",
+    rating: 8.3,
+    genre: "Drama",
+    trending: false,
+    poster: "dangal.jpg",
+    banner: "dangal-banner.jpg",
+    description: "A former wrestler trains his daughters to become world-class wrestlers, challenging social norms along the way.",
+    cast: ["Aamir Khan", "Fatima Sana Shaikh", "Sanya Malhotra"]
+  },
+  {
+    id: 9,
+    title: "Zindagi Na Milegi Dobara",
+    year: 2011,
+    duration: "2h 35m",
+    rating: 8.2,
+    genre: "Comedy",
+    trending: false,
+    poster: "znmd.jpg",
+    banner: "znmd-banner.jpg",
+    description: "Three friends go on a bachelor road trip across Spain, where each of them faces his fears and learns to live fully.",
+    cast: ["Hrithik Roshan", "Farhan Akhtar", "Abhay Deol"]
+  },
+  {
+    id: 10,
+    title: "Mad Max: Fury Road",
+    year: 2015,
+    duration: "2h 0m",
+    rating: 8.1,
+    genre: "Action",
+    trending: false,
+    poster: "fury-road.jpg",
+    banner: "fury-road-banner.jpg",
+    description: "In a desert wasteland, Max teams up with Furiosa to escape a tyrant and his army in a non-stop chase.",
+    cast: ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"]
+  },
+  {
+    id: 11,
+    title: "Spider-Man: No Way Home",
+    year: 2021,
+    duration: "2h 28m",
+    rating: 8.2,
+    genre: "Action",
+    trending: true,
+    poster: "no-way-home.jpg",
+    banner: "no-way-home-banner.jpg",
+    description: "Peter Parker asks Doctor Strange to make the world forget his identity, but the spell opens the multiverse.",
+    cast: ["Tom Holland", "Zendaya", "Benedict Cumberbatch"]
+  },
+  {
+    id: 12,
+    title: "Gully Boy",
+    year: 2019,
+    duration: "2h 33m",
+    rating: 7.9,
+    genre: "Drama",
+    trending: false,
+    poster: "gully-boy.jpg",
+    banner: "gully-boy-banner.jpg",
+    description: "A young man from the streets of Mumbai finds his voice through underground rap and chases his dream.",
+    cast: ["Ranveer Singh", "Alia Bhatt", "Siddhant Chaturvedi"]
+  }
+];
